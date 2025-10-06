@@ -20,6 +20,11 @@
 // e scoponi  il problema di sotto-task da svolgere. Questo ti aiuta a documentare il tuo flusso di lavoro
 // ed il codice evitandoti di restare li a fissare una pagina vuota.
 
+
+
+
+
+
 //tools -> const/var; operatore matematici (*, /, -); operatori relazionali su età (<18, >65); if/else per effetto degli sconti sul prezzo; proprietà toFixed(2) per decimali
 
 
@@ -31,7 +36,6 @@
 const kilo = Number(prompt('Indicare la lunghezza della tratta in Km'))
 console.log(kilo);
 
-
 //variabile età
 const age = Number(prompt("Indicare l'età del passeggero"))
 console.log(age);
@@ -41,18 +45,24 @@ console.log(age);
 
 
 
+
+
 //#2 - variabile prezzo del biglietto
+
 /* the value of ticket price is an operation between travel kilometers that insert the user from kilo prompt and 0.21 euros that is the cost for single kilometer */
 const price_ticket = kilo * 0.21;
 console.log(price_ticket, 'prezzo biglietto intero');
 
 
 
+
+
+
 //#3 - variabili per gli sconti
+
 /* minorenni */
 const under_sale = price_ticket - ((price_ticket * 20) / 100);
 console.log(under_sale, 'prezzo biglietto under 18');
-
 
 /* over 65 */
 const over_sale = price_ticket - ((price_ticket * 40) / 100);
@@ -61,7 +71,10 @@ console.log(over_sale, 'prezzo biglietto over 65');
 
 
 
-//# - if/else comparazione per gli sconti
+
+
+
+//#4 - if/else comparazione per gli sconti
 
 if (age < 18) {
     /* se input età è minore di 18, stampo under_sale */
