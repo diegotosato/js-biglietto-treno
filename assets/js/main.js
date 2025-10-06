@@ -89,4 +89,4 @@ if (age < 18) {
     price_ticket
 }
 
-console.log(price_ticket);
+console.log(price_ticket.toFixed(2));
