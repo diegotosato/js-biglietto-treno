@@ -42,11 +42,18 @@ console.log(age);
 
 
 //#2 - variabile prezzo del biglietto
+/* the value of ticket price is an operation between travel kilometers that insert the user from kilo prompt and 0.21 euros that is the cost for single kilometer */
 const price_ticket = kilo * 0.21;
 console.log(price_ticket);
 
 
+//#3 - variabili per gli sconti
+/* minorenni */
+const under_sale = (price_ticket * 20) / 100;
+
+/* over 65 */
+const over_sale = (price_ticket * 40) / 100;
 
 
 
-//#3 - if/else comparazione per gli sconti
+//# - if/else comparazione per gli sconti
