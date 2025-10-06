@@ -28,6 +28,9 @@
 //#1 - due variabili con valore prompt, la prima mi chiede quanti chilometri voglio fare, la seconda quale è la mia età
 
 //variabile chilometri
+const kilo = prompt('Indicare la lunghezza della tratta in Km')
+console.log(kilo);
+
 
 //variabile età
 
