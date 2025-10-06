@@ -33,6 +33,9 @@ console.log(kilo);
 
 
 //variabile età
+const age = prompt("Indicare l'età del passeggero")
+console.log(age);
+
 
 
 
