@@ -42,6 +42,8 @@ console.log(age);
 
 
 //#2 - variabile prezzo del biglietto
+const price_ticket = kilo * 0.21;
+console.log(price_ticket);
 
 
 
